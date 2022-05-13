@@ -24,7 +24,7 @@ function Row({ title, movies }: Props) {
           ? scrollLeft - clientWidth
           : scrollLeft + clientWidth
 
-      rowRef.current.scrollTo({ left: scrollTo, behavior: 'smooth' })
+      rowRef.current.scrollTo({ left: scrollTo, behavior: "smooth" })
     }
   }
 
